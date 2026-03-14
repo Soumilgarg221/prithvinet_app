@@ -1,0 +1,34 @@
+name: prithvinet
+description: PrithviNet Field Monitoring App — Environment Department, CG Govt.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.1.4
+  cloud_firestore: ^5.2.1
+  firebase_storage: ^12.1.3
+  firebase_messaging: ^15.0.4
+
+  # Location & GPS
+  geolocator: ^13.0.1
+  permission_handler: ^11.3.1
+
+  # UI
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
